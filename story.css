@@ -53,7 +53,7 @@ li:Hover {
     width: 100%;
     min-height: 60vh;
     top: -25px;
-    background-image: linear-gradient(0deg, transparent, black 75%);
+    background-image: linear-gradient(0deg, transparent, rgb(10, 10, 10) 75%);
     z-index: 1;
   }
   /* Stilsetter teksten og setter teksten midt skjermen perspectiv 400px som lar meg jobbe med teksten i 3D*/
@@ -66,7 +66,7 @@ li:Hover {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 500%;
     font-weight: 600;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
     line-height: 150%;
     perspective: 400px;
     text-align: justify;
