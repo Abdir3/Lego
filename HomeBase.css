@@ -15,7 +15,7 @@ body
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: linear-gradient(0deg,#b94926,#3d80af);
+	background: black;
 	background-attachment: fixed;
 }
  /* Posisjonering av hovediven */
