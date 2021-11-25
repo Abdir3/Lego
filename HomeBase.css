@@ -11,9 +11,7 @@
 /* Bakgrunnfarge og display flex for å centre de fire boksene */
 body
 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
 	min-height: 100vh;
 	background: black;
 	background-attachment: fixed;
@@ -21,28 +19,30 @@ body
  /* Posisjonering av hovediven */
 .container
 {
-	position: relative;
-	width: 1000px;
+	width: 80%;
+	margin: 0  auto;
+}
+.banner_sec .container .row{
+	width: 100%;
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin: 20px;
-	padding: 20px 0;
+	justify-content: space-evenly;
+	min-height: 100vh;
+	align-items: center;
 }
  /*  Posisjonering av underdiv iforhold hoveddiv samt skygge*/
-.container .card
+ .banner_sec .container .card
 {
 	position:relative;
 	height: 250px;
 	background: #fff;
 	display: flex;
-	width: 45%;
+	width: 30%;
 	margin: 30px 0;
 	border-radius: 20px;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 /* Legger et lokk over boksene og blurer slik at innhold ikke kan ses */
-.container .card .imgBx
+.banner_sec .container .card .imgBx
 {
 	position: absolute;
 	top: 10px;
@@ -64,24 +64,24 @@ body
 
 
 /* På hover fjernes lokket  */
-.container .card:hover .imgBx
+.banner_sec .container .card:hover .imgBx
 {
 	height: 150px;
 	width: 150px;
 	left: -75px;
 	top: calc(50% - 75px);
 }
-.container .card .imgBx img
+.banner_sec .container .card .imgBx img
 {
 	max-width: 100px;
 	filter: invert(1);
 	transition: 0.5s ease-in-out;
 }
-.container .card:hover .imgBx img
+.banner_sec .container .card:hover .imgBx img
 {
 	max-width: 75px;
 }
-.container .card .content
+.banner_sec .container .card .content
 {
 	position: absolute;
 	right: 0;
@@ -93,13 +93,15 @@ body
 	align-items: center;
 }
 /* Farge på h3 i teksten */
-.container .card .content h3
+.banner_sec .container .card .content h3
 {
 	color: #c32b5d;
 	margin-bottom: 5px;
-	font-size: 24px;
+	font-size: 1.5rem;
 }
-
+.banner_sec .container .card .content p{
+	font-size: 1rem;
+}
 #starwars {
 	color: #feda4a;
 }
@@ -112,7 +114,7 @@ body
 }
 
 /* Stilsetting av knappene */
-.container .card .content a
+.banner_sec .container .card .content a
 {
 	display: inline-block;
 	margin-top: 10px;
@@ -123,4 +125,5 @@ body
 	color: #fff;
 	font-weight: 500;
 }
+
 
