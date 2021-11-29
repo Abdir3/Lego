@@ -13,8 +13,9 @@ body
 {
 
 	min-height: 100vh;
-	background: black;
 	background-attachment: fixed;
+	background-image:url("images/lego_background.jpg");
+	background-position: 10%;
 }
  /* Posisjonering av hovediven */
 .container
@@ -34,20 +35,21 @@ body
 {
 	position:relative;
 	height: 250px;
-	background: #fff;
+	background: rgb(107, 106, 106);
 	display: flex;
 	width: 30%;
 	margin: 30px 0;
 	border-radius: 20px;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+
+
 /* Legger et lokk over boksene og blurer slik at innhold ikke kan ses */
 .banner_sec .container .card .imgBx
 {
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	background: rgba(255,255,255,0.1);
 	backdrop-filter: blur(20px);
 	height: calc(100% - 20px);
 	width: calc(100% - 20px);
@@ -61,7 +63,6 @@ body
 	box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
 	transition: 0.5s ease-in-out;
 } 
-
 
 /* På hover fjernes lokket  */
 .banner_sec .container .card:hover .imgBx
@@ -103,10 +104,10 @@ body
 	font-size: 1rem;
 }
 #starwars {
-	color: #feda4a;
+	color: #FFE81F;
 }
 #harry {
-	color:#D4AF37;
+	color:#FFC915;
 }
 
 #marvel {
@@ -120,7 +121,7 @@ body
 	margin-top: 10px;
 	padding: 8px 20px;
 	border-radius: 5px,5px;
-	background: #55afc5;
+	background: #000000;
 	text-decoration: none;
 	color: #fff;
 	font-weight: 500;
