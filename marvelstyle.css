@@ -4,15 +4,17 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
-}                             /*Setter bakgrunn*/
+}   
+
+
 .container { 
-    position: relative;
-    width: 1920px;
-    height: 1080px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
     background-image: linear-gradient(rgba(21, 110, 228, 0.3),transparent);
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    overflow: auto;
     padding: 0 8%
 }
                 /* NAVBAR*/
@@ -38,13 +40,6 @@ nav ul li {
     margin-bottom: 40px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    position: relative;
-    
-}
-
 li:Hover {
     transition-delay: 0.5s;
     border-radius: 15%;
@@ -56,10 +51,11 @@ li:Hover {
 }
                             /* HOVEDSIDEKNAPPER */
 /* flexbox for å centre dem i midten av siden(containeren)  */
+
 .btn-container {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    
 
 }
 /* stilsetting knappene, webkit for å få skygge effekt på knappene */
@@ -183,9 +179,9 @@ li:Hover {
 
 h1 {
     
-    margin-top: 65vh;
-    margin-left: 41vh;
-    margin-bottom: 50px;        
+    display: flex;
+    align-self: flex;
+    justify-content: center;        
     font-size:100px;      
     color: transparent;
     -webkit-text-stroke: 1px #fff;
