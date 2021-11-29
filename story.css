@@ -1,4 +1,5 @@
 /* Bakgrunnsfarge, og fyller skjermen og skjuler elementer som viser seg utenfor*/
+
 body {
     width: 100%;
     height: 100%;
@@ -56,7 +57,9 @@ li:Hover {
     background-image: linear-gradient(0deg, transparent, rgb(10, 10, 10) 75%);
     z-index: 1;
   }
+  
   /* Stilsetter teksten og setter teksten midt skjermen perspectiv 400px som lar meg jobbe med teksten i 3D*/
+  
   .container {
     display: flex;
     justify-content: center;
@@ -71,14 +74,18 @@ li:Hover {
     perspective: 400px;
     text-align: justify;
   }
+  
   /* Setter position på teksten slik at jeg kan manipulere top delen samt animere */
+  
   .story {
     position: relative;
     top: 9999px;
     transform-origin: 50% 100%;
     animation: story 60s linear;
   }
+  
   /*Stilsetting */
+  
   .story > .title {
     font-size: 90%;
     text-align: center;
@@ -88,7 +95,9 @@ li:Hover {
     margin: 0 0 100px;
     text-transform: uppercase;
   }
+  
   /* Animasjon Starte på bunnen og jobbe seg oppover, på 100% er teksten helt borte */
+ 
   @keyframes story {
     0% {
       top: 0;
