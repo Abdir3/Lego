@@ -12,6 +12,10 @@ body
     min-height: 100vh;
     background: #121213;
 }
+a {
+    text-decoration: none;
+    list-style: none;
+}
 .loader
 {
     position: relative;
