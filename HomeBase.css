@@ -18,6 +18,7 @@ body
 	min-height: 100vh;
 	background-attachment: fixed;
 	background-image:url("images/lego_background.jpg");
+	background-size: 100%;
 	background-position: 10%;
 }
 
