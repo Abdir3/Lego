@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 } 
+/* Bakgrunn og Flexbox */
 .container { 
     position: relative;
     width: 100%;
@@ -14,14 +15,14 @@
     background-position: center;
     overflow: hidden;    
 }
+/* NAVBAR */
 nav {            
     display: flex;
     width: 100%;
     height: 80px;
     align-items: center;
     flex: wrap;
-    padding: 5px 0;
-    
+    padding: 5px 0;    
 }
 nav ul {
     flex:1;
@@ -44,7 +45,7 @@ li:Hover {
 	color: #111;
 	box-shadow: 0 0 50px #f5f5ed;    
 }
-
+/* container for animasjonselementer */
 .animation-container {
     position: relative;
     top: -20px;
@@ -61,10 +62,6 @@ li:Hover {
 	border: 1px solid rgba(241, 238, 233, 0.774);
 	box-shadow: 5px 5px 30px rgba(233, 220, 220, 0.685);	
 }
-.hero .villain .sfx {
- background-color: red;
-}
-
 .widow {
     position: absolute;
     top: 500px;
@@ -76,7 +73,7 @@ li:Hover {
     position: absolute;
     top: 200px;
     right: -5000px;
-    animation: flight 10s ease-in;
+    animation: flight 10.5s ease-in;
 }
 .hulk {
     top: 400px;
@@ -108,13 +105,12 @@ li:Hover {
     position: absolute;
     animation: thanoslife 10s linear;
 }
-.explosion {
-    
+.explosion {    
     position: absolute;
     top: 260px;
     right: 70vh;
     opacity: 0;
-    animation: explosive 11s ease-in;
+    animation: explosive 11s ease-in;    
 }
 .laser {
     position: absolute;
@@ -132,12 +128,13 @@ li:Hover {
     opacity: 0;
     color: rgba(236, 19, 19, 0.911);
     -webkit-text-stroke: 1px #fff;
+    -webkit-box-reflect: below  1px linear-gradient(transparent,#0003);
     animation: victorytext 200s ease-in;
 }
 
 @keyframes flight {
     100%{top: 15px;
-        right:2000px;}
+        right:3000px;}
 }
 @keyframes thanoslife {
     0%  {transform: rotate(20deg);
@@ -199,7 +196,8 @@ li:Hover {
 
 @keyframes widowescape {
     0%  {opacity: 1;}
-    50% {transform: scaleX(0.9);}
+    50% {transform: scaleX(0.9);
+        transform:skew(-5deg)}
     60% {top: 500px;
         right: 35vh;
         transform: scaleX(-1);}
@@ -211,7 +209,7 @@ li:Hover {
 
 @keyframes captainescape {
     0%  {opacity: 1;}
-    50% {transform: scaleX(0.9);}
+    50% {transform: scaleX(1.2);}
     60% {top: 500px;
         right: 150vh;
         transform: scaleX(-1);}
@@ -223,7 +221,8 @@ li:Hover {
 
 @keyframes hulkescape {
     0%  {opacity: 1;}
-    50% {transform: scaleX(0.9);}
+    50% {transform: scaleX(0.9);
+        transform: rotate(10deg);}
     60% {top: 400px;
         right: 55vh;
         transform: scaleX(-1);}
