@@ -103,14 +103,15 @@ li:Hover {
     right: 80vh;
     opacity: 0;
     position: absolute;
-    animation: thanoslife 10s linear;
+    animation: thanoslife 9.5s linear;
 }
 .explosion {    
     position: absolute;
+    z-index: 2;
     top: 260px;
     right: 70vh;
     opacity: 0;
-    animation: explosive 11s ease-in;    
+    animation: explosive 10s ease-in;    
 }
 .laser {
     position: absolute;
@@ -129,9 +130,8 @@ li:Hover {
     color: rgba(236, 19, 19, 0.911);
     -webkit-text-stroke: 1px #fff;
     -webkit-box-reflect: below  1px linear-gradient(transparent,#0003);
-    animation: victorytext 200s ease-in;
+    animation: victorytext 180s ease-in;
 }
-
 @keyframes flight {
     100%{top: 15px;
         right:3000px;}
