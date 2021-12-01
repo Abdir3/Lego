@@ -116,16 +116,29 @@ body
 	font-size: 10px;
 	color: #fff;
 }
-#starwars {
+#starwars, #star {
 	color: #FFE81F;
+	
+}
+
+#star {
+	background-color: #FFE81F;
+	color: #fff;
 }
 #harry {
 	color:#FFC915;
 }
 
+
+
 #marvel {
  	color:#F0131E;
 }
+
+#marvelh {
+	background-color: #F0131E;
+}
+
 
 /* Stilsetting av knappene */
 
@@ -135,9 +148,9 @@ body
 	margin-top: 10px;
 	padding: 8px 20px;
 	border-radius: 5px 	5px;
-	background: #b9b9b7;
+	background: #6e6e6d;
 	text-decoration: none;
 	color: #fff;
-	font-weight: 500;
+	font-weight: bold;
 }
 
