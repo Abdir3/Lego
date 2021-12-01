@@ -4,18 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
-                                 /*NAVBAR*/
+/*NAVBAR*/
 nav {
     display: flex;
     width: 100%;
     align-items: center;
-    flex: wrap;
     padding: 5px 0;
     background-color: tomato;
 }
-
 nav ul {
     flex:1;
     text-align: right;
@@ -29,14 +25,11 @@ nav ul li {
     font-size: 2rem;
     margin-bottom: 40px;
 }
-
 nav ul li a {
     text-decoration: none;
     color: transparent;
-    position: relative;
-    
+    position: relative;    
 }
-
 li:Hover {
   transition: ease-in;
 	background: #df1d1d;
@@ -44,8 +37,8 @@ li:Hover {
 	box-shadow: 0 0 50px #21ebff;
     border-radius: 15%;
 }
-.container
-{
+/* "Lightsaber" effekt */
+.container {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -57,8 +50,7 @@ li:Hover {
   overflow: hidden;
   animation: animateColor 5s linear infinite;
 }
-@keyframes animateColor
-{
+@keyframes animateColor {
   0%
   {
     filter: hue-rotate(0deg);
@@ -68,16 +60,13 @@ li:Hover {
     filter: hue-rotate(360deg);
   }
 }
-
-.container span
-{
+.container span {
   position: relative;
   display: block;
   width: 40px;
   height: 40px;
 }
-.container span::before
-{
+.container span::before {
   content: '';
   position: absolute;
   top: 0;
@@ -95,8 +84,7 @@ li:Hover {
   transition: 2s;
   transform: scale(0);
 }
-.container span:hover::before
-{
+.container span:hover::before {
   transition: 0s;
   transform: scale(1);
 }
