@@ -18,8 +18,9 @@ body
 	min-height: 100vh;
 	background-attachment: fixed;
 	background-image:url("images/lego_background.jpg");
-	background-size: 100%;
-	background-position: 10%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 }
 
  /* Posisjonering av hovediven */
@@ -133,8 +134,7 @@ body
 	display: inline-block;
 	margin-top: 10px;
 	padding: 8px 20px;
-	border-radius: 5px,5px;
-	background-image:url("images/green_readmore.png");
+	border-radius: 5px 	5px;
 	background: #b9b9b7;
 	text-decoration: none;
 	color: #fff;
