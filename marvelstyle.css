@@ -42,11 +42,11 @@ nav ul li {
 
 li:Hover {
     transition-delay: 0.5s;
-    border-radius: 15%;
-	background: linear-gradient(rgb(202, 190, 190),#eb0e0e);
+    border-radius: 10%;
+	background: linear-gradient(rgb(202, 190, 190),#3213e6d2);
     transition: ease-in;
 	color: #111;
-	box-shadow: 0 0 50px #fcf802;
+	box-shadow: 0 0 50px #f5f5ed;  
     
 }
                             /* HOVEDSIDEKNAPPER */
