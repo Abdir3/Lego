@@ -67,15 +67,15 @@ li:Hover {
     justify-content: center;
     position: relative;
     height: 800px;
-    color: #ff3d2f;
+    color: #c43b31;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 250%;
     font-weight: 600;
     letter-spacing: 3px;
     line-height: 150%;
     text-align: justify;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 450px;
+    padding-right: 400px;
   }
   
   /* Setter position på teksten slik at jeg kan manipulere top delen samt animere */
