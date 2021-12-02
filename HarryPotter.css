@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }                             /*Setter bakgrunn*/
+
 .container {
     position: relative;
     width: 100%;
@@ -15,8 +16,8 @@
     background-position: center;
     overflow: auto;
     justify-content: center;
-    
 }
+
 .harry-container{
     position: relative;
     display: flex;
@@ -32,13 +33,14 @@ nav {
     align-items: center;
     flex: wrap;
     padding: 5px 0;
-    
 }
+
 nav ul {
     flex:1;
     text-align: right;
     padding-right: 30px;
 }
+
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -47,6 +49,7 @@ nav ul li {
     font-size: 2rem;
     margin-bottom: 40px;
 }
+
 li:Hover {
     transition-delay: 0.5s;
     border-radius: 10%;
@@ -63,9 +66,11 @@ li:Hover {
     opacity: 0.5;
     justify-content: center;
 }
+
 #harry1:hover{
 opacity: 1.0;
 }
+
 #harry2{
     width: 210px;    
     bottom: 200px;
@@ -73,6 +78,7 @@ opacity: 1.0;
     opacity: 0.5;
     justify-content: center;
 }
+
 #harry2:hover{
     opacity: 1.0;
 }
@@ -84,9 +90,9 @@ opacity: 1.0;
     opacity: 0.5;
     justify-content: center;
 }
+
 #harryvsvoldemort:hover{
     opacity: 1.0;
-
 }
 
 

@@ -1,6 +1,7 @@
 body {
     background-color: rgb(1, 5, 4);
 }
+
 .info-box {
     width: 450px;
     height: 300px;
@@ -8,8 +9,7 @@ body {
     top: 80px;
     right: 370px;
     border: 2px solid rgb(68, 66, 66);
-    padding: 140px;
-    
+    padding: 140px;  
 }
 
 .text-box {
@@ -20,7 +20,6 @@ body {
     right: 380px;
     max-width: 50%;
     text-align: center;
-    
 }
 
 h1 {
@@ -34,13 +33,14 @@ nav {
     align-items: center;
     flex: wrap;
     padding: 5px 0;
-    
 }
+
 nav ul {
     flex:1;
     text-align: right;
     padding-right: 30px;
 }
+
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -49,6 +49,7 @@ nav ul li {
     font-size: 2rem;
     margin-bottom: 40px;
 }
+
 li:Hover {
     transition-delay: 0.5s;
     border-radius: 10%;
