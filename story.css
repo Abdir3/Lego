@@ -1,18 +1,15 @@
 /* Bakgrunnsfarge, og fyller skjermen og skjuler elementer som viser seg utenfor*/
-
 body {
     width: 100%;
     height: 100%;
     background: #000;
     overflow: hidden;
   }
-
   a {
-      text-decoration: none;
-      color: #feda4a;
+    text-decoration: none;
+    color: #feda4a;
   }
-
-                         /* NAVBAR */
+  /* NAVBAR */
   nav {
     display: flex;
     width: 100%;
@@ -20,7 +17,6 @@ body {
     flex: wrap;
     padding: 5px 0;
 }
-
 nav ul {
     flex:1;
     text-align: right;
@@ -34,14 +30,11 @@ nav ul li {
     font-size: 2rem;
     margin-bottom: 40px;
 }
-
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    position: relative;
-    
+    position: relative;    
 }
-
 li:Hover {
     transition-delay: 0.5s;
 	background: #feda4a;;
@@ -56,10 +49,8 @@ li:Hover {
     top: -25px;
     background-image: linear-gradient(0deg, transparent, rgb(10, 10, 10) 75%);
     z-index: 1;
-  }
-  
+  }  
   /* Stilsetter teksten og setter teksten midt skjermen perspectiv 400px som lar meg jobbe med teksten i 3D*/
-  
   .container {
     display: flex;
     justify-content: center;
@@ -73,31 +64,24 @@ li:Hover {
     line-height: 150%;
     perspective: 400px;
     text-align: justify;
-  }
-  
-  /* Setter position på teksten slik at jeg kan manipulere top delen samt animere */
-  
+  }  
+  /* Setter position på teksten slik at jeg kan manipulere top delen samt animere */  
   .story {
     position: relative;
     top: 9999px;
     transform-origin: 50% 100%;
     animation: story 40s linear;
-  }
-  
-  /*Stilsetting */
-  
+  }  
+  /*Stilsetting */  
   .story > .title {
     font-size: 90%;
     text-align: center;
-  }
-  
+  }  
   .story > .title h1 {
     margin: 0 0 100px;
     text-transform: uppercase;
-  }
-  
-  /* Animasjon Starte på bunnen og jobbe seg oppover, på 100% er teksten helt borte */
- 
+  }  
+  /* Animasjon Starte på bunnen og jobbe seg oppover, på 100% er teksten helt borte */ 
   @keyframes story {
     0% {
       top: 0;
