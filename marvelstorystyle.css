@@ -9,7 +9,7 @@ body {
 
   a {
       text-decoration: none;
-      color: #000000;
+      color: #ffffff;
       font-family: sans-serif;
   }
 
@@ -46,9 +46,9 @@ nav ul li a {
 
 li:Hover {
     transition-delay: 0.5s;
-	background: #4a74fe;
-	color: #111;
-	box-shadow: 0 0 50px #ff5f5f;
+	  background: #4a74fe;
+	  color: #111;
+	  box-shadow: 0 0 50px #ff5f5f;
     border-radius: 15%;
 }
 
@@ -67,7 +67,7 @@ li:Hover {
     justify-content: center;
     position: relative;
     height: 800px;
-    color: #c43b31;
+    color: #F0131E;
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 250%;
     font-weight: 600;
