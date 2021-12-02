@@ -1,7 +1,7 @@
 body {
     background-color: black
 }
-/* boksen teksten er i */
+ /* tesktboks */
 .info-box {
     width: 450px;
     height: 300px;
@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     color: rgb(35, 66, 37);
 }
-                      /* NAVBAR */
+/* NAVBAR */
 nav {            
     display: flex;
     width: 100%;
