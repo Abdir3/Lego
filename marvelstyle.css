@@ -197,7 +197,7 @@ h1 {
     background: url(images/MarvelBack.jpg);
     background-clip: text;
     -webkit-background-clip:text;    
-    animation: text 100s linear infinite;
+    animation: text 150s linear infinite;
 }
 @keyframes text 
 {
