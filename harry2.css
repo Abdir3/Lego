@@ -11,7 +11,7 @@ body {
     padding: 140px;
 }
 
-#text-box {
+.text-box {
     color: white;
     font-family: sans-serif;
     position: absolute;
