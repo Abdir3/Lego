@@ -1,7 +1,6 @@
 body {
     background-color: black
 }
-/* tesktboks */
 .info-box {
     width: 450px;
     height: 300px;
@@ -12,8 +11,7 @@ body {
     padding: 140px;
 }
 
-/* tekst */
-.text-box {
+#text-box {
     color: white;
     font-family: sans-serif;
     position: absolute;
@@ -22,12 +20,12 @@ body {
     max-width: 50%;
     text-align: center;
 }
-/*overskirft*/ 
+
 h1 {
     text-align: center;
     color: gold;
 }
- /* NAVBAR */
+
 nav {            
     display: flex;
     width: 100%;
