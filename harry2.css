@@ -10,7 +10,6 @@ body {
     border: 2px solid gold;
     padding: 140px;
 }
-
 .text-box {
     color: white;
     font-family: sans-serif;
@@ -20,12 +19,10 @@ body {
     max-width: 50%;
     text-align: center;
 }
-
 h1 {
     text-align: center;
     color: gold;
 }
-
 nav {            
     display: flex;
     width: 100%;
