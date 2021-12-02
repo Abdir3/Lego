@@ -15,6 +15,14 @@
     background-position: center;
     overflow: auto;
 }
+.harry-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
 
 nav {            
     display: flex;
@@ -47,8 +55,7 @@ li:Hover {
 }
 
 #harry1 {
-    width: 200px;
-    position: absolute;
+    width: 200px;    
     bottom: 200px;
     left: 250px;
     opacity: 0.5;
@@ -57,8 +64,7 @@ li:Hover {
 opacity: 1.0;
 }
 #harry2{
-    width: 210px;
-    position: absolute;
+    width: 210px;    
     bottom: 200px;
     right: 600px;
     opacity: 0.5;
@@ -68,8 +74,7 @@ opacity: 1.0;
 }
     
 #harryvsvoldemort{
-    width: 215px;
-    position: absolute;
+    width: 215px;    
     bottom: 200px;
     right: 200px;
     opacity: 0.5;
