@@ -9,6 +9,7 @@ body {
     right: 370px;
     border: 2px solid rgb(68, 66, 66);
     padding: 140px;
+    
 }
 
 #text-box {
@@ -19,6 +20,7 @@ body {
     right: 380px;
     max-width: 50%;
     text-align: center;
+    
 }
 
 h1 {
