@@ -1,7 +1,6 @@
 body {
     background-color: black
 }
-
 .info-box {
     width: 450px;
     height: 300px;
@@ -33,14 +32,13 @@ nav {
     align-items: center;
     flex: wrap;
     padding: 5px 0;
+    
 }
-
 nav ul {
     flex:1;
     text-align: right;
     padding-right: 30px;
 }
-
 nav ul li {
     display: inline-block;
     list-style: none;
@@ -49,7 +47,6 @@ nav ul li {
     font-size: 2rem;
     margin-bottom: 40px;
 }
-
 li:Hover {
     transition-delay: 0.5s;
     border-radius: 10%;
